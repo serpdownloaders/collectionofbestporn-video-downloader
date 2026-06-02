@@ -1,0 +1,213 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/collectionofbestporn-downloader",
+  "serply_link": "https://serp.ly/collectionofbestporn-downloader",
+  "app_name": "Collectionofbestporn Video Downloader",
+  "short_description": "Download & Save Collectionofbestporn Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Collectionofbestporn Downloader is a browser extension that detects playable media on CollectionOfBestPorn video pages and provides a clean, in-browser workflow for saving those videos as MP4 files. Instead of hunting through page source code or using generic download tools that may grab the wrong asset, this extension scans the page for real video sources and presents them in an easy-to-use popup, player button, or context menu.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/collectionofbestporn-downloader-fullscreen-01-f305949dca.webp",
+    "https://apps.serp.co/media/optimized-products/collectionofbestporn-downloader-fullscreen-02-3d4def71fc.webp",
+    "https://apps.serp.co/media/optimized-products/collectionofbestporn-downloader-fullscreen-03-e26680e8ac.webp",
+    "https://apps.serp.co/media/optimized-products/collectionofbestporn-downloader-fullscreen-04-fc75e4451d.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I download a video from CollectionOfBestPorn?",
+      "answer": "Open a supported video page, start playback if the stream requires it, then use the player button on the video wrapper, the extension popup, or the right-click context menu to select and download your preferred format."
+    },
+    {
+      "question": "What video formats does the extension support?",
+      "answer": "The extension detects direct MP4 sources and HLS streams. All downloads are processed and saved as MP4 files for maximum compatibility with standard media players."
+    },
+    {
+      "question": "Do I need to create an account?",
+      "answer": "Yes, you need to sign in with your email using OTP verification. This allows the extension to manage your trial downloads and license status. No credit card is required for the trial."
+    },
+    {
+      "question": "Is this extension free?",
+      "answer": "You get 3 free downloads to test the workflow. After that, unlimited downloads require a paid license. There are no recurring subscription fees — you purchase access for continued use."
+    },
+    {
+      "question": "Does the extension work on every CollectionOfBestPorn page?",
+      "answer": "The extension works on supported video pages where media sources are detectable. Some pages may use unusual player configurations that limit detection. If a page does not work, try another video or contact support."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Page-aware media detection that finds actual video sources instead of ads or preview assets",
+    "Player button appears directly on supported video wrappers for one-click access",
+    "Direct MP4 and HLS stream detection with quality options when available",
+    "In-page download manager shows real-time progress for each save",
+    "Right-click menu support on both the page and video elements",
+    "Organized downloads saved to a dedicated CollectionOfBestPorn folder",
+    "OTP email verification with 3 free downloads to test the workflow",
+    "Player button that appears on supported video wrappers for instant download access",
+    "Popup interface showing all detected media sources with quality labels",
+    "Right-click context menu for downloading from the page or video element",
+    "Direct MP4 detection from video tags, source elements, and metadata",
+    "HLS stream detection and processing for M3U8 playlists",
+    "Automatic filtering of ad networks and non-video assets",
+    "In-page download manager with real-time progress indicators",
+    "Organized file saving to a dedicated CollectionOfBestPorn folder",
+    "OTP email verification for secure account access",
+    "3 free downloads included for testing before purchase"
+  ],
+  "content": {
+    "why": [
+      "Video pages on CollectionOfBestPorn often hide their actual media URLs behind player logic, scripts, and dynamic loading. A standard browser save action or a generic download tool frequently captures the wrong file — a preview clip, an advertisement asset, or nothing at all. This leaves users frustrated, switching between tabs and trying different approaches just to save a single video.",
+      "Collectionofbestporn Downloader solves this by scanning the page for genuine video sources using multiple detection methods. It filters out common ad networks and junk URLs, then presents only the real playable options. The extension integrates directly into your browsing experience with a player button, popup controls, and a context menu — no need to copy URLs or use external websites."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open CollectionOfBestPorn and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Collectionofbestporn Downloader extension from GitHub Releases.",
+      "Navigate to any supported video page on collectionofbestporn.com.",
+      "Let the page load fully and begin video playback if the stream requires activation.",
+      "Look for the download button that appears on the video player wrapper.",
+      "Click the button to see available quality options for the detected media.",
+      "Alternatively, click the extension icon in your toolbar to open the popup.",
+      "Select your preferred format and click the download button.",
+      "Wait for the progress indicator to complete and save the file from your downloads folder."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs from video elements, source tags, and Open Graph metadata, plus HLS streams detected as M3U8 playlists",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Viewers who want to save CollectionOfBestPorn videos for offline playback",
+      "Users who prefer browser-based tools over desktop software or command-line utilities",
+      "Non-technical users who want a simple button-based download workflow",
+      "Anyone tired of generic downloaders that grab the wrong file from video pages"
+    ],
+    "use_cases": [
+      "Save a CollectionOfBestPorn video to watch later without an internet connection",
+      "Archive favorite videos locally for personal collection management",
+      "Pull the highest available quality version instead of relying on page embeds",
+      "Avoid buffering issues by downloading instead of streaming repeatedly",
+      "Share video files with others who may not have access to the platform"
+    ],
+    "troubleshooting": [
+      "No download button appears on the page Make sure the video page has fully loaded and playback has started. Some streams only become detectable after the player initializes. Try refreshing the page and playing the video again.",
+      "The popup shows no detected media Not all CollectionOfBestPorn pages expose their video sources in the same way. Try starting playback first, then reopen the popup. If the issue persists, try a different video page to confirm the extension is working.",
+      "Downloads fail partway through Check your internet connection and ensure the video source is still accessible. Some streams have time-limited URLs that expire. Restart playback and try the download again immediately.",
+      "The extension says I have no free downloads remaining The 3 free trial downloads are counted per device. If you have used them all, you will need to purchase a license for unlimited downloads. You can check your status in the extension popup.",
+      "Files save with generic names instead of video titles The extension uses the best available title from the page metadata. If the page does not provide a clear title, the file may use a generic identifier. You can rename the file after download."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported CollectionOfBestPorn page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Some video sources may only become available after starting playback",
+      "The extension filters common ad networks but may occasionally miss unusual assets"
+    ],
+    "about": [
+      "CollectionOfBestPorn is a video hosting platform featuring a wide variety of adult content organized into curated collections. This extension helps users save videos from the platform directly in their browser, providing a more convenient alternative to manual downloading methods."
+    ]
+  },
+  "serpx_link": "https://serpx.link/collectionofbestporn-downloader",
+  "github_topics": [
+    "collectionofbestporn-download",
+    "collectionofbestporn-downloader",
+    "collectionofbestporn-video-downloader",
+    "collectionofbestporn-video-downloader-online",
+    "collectionofbestporn-video-downloader-mac",
+    "collectionofbestporn-video-downloader-window",
+    "collectionofbestporn-video-downloader-free",
+    "collectionofbestporn-video-downloader-extension",
+    "collectionofbestporn-video-downloader-app",
+    "collectionofbestporn-video-downloader-chrome",
+    "collectionofbestporn-video-downloader-from-url",
+    "how-to-download-collectionofbestporn-videos",
+    "how-to-download-collectionofbestporn-videos-mac",
+    "how-to-download-collectionofbestporn-videos-windows",
+    "how-to-download-collectionofbestporn-videos-online",
+    "how-to-download-collectionofbestporn-videos-free",
+    "how-to-download-from-collectionofbestporn",
+    "how-to-download-videos-from-collectionofbestporn",
+    "download-collectionofbestporn-videos",
+    "collectionofbestporn-video-tutorial",
+    "save-collectionofbestporn-videos",
+    "collectionofbestporn-video-content-saver",
+    "how-to-download-collectionofbestporn-videos-for-free"
+  ],
+  "hashtags": [
+    "#CollectionofbestpornDownload",
+    "#CollectionofbestpornDownloader",
+    "#CollectionofbestpornVideoDownloader",
+    "#CollectionofbestpornVideoDownloaderOnline",
+    "#CollectionofbestpornVideoDownloaderMac",
+    "#CollectionofbestpornVideoDownloaderWindow",
+    "#CollectionofbestpornVideoDownloaderFree",
+    "#CollectionofbestpornVideoDownloaderExtension",
+    "#CollectionofbestpornVideoDownloaderApp",
+    "#CollectionofbestpornVideoDownloaderChrome",
+    "#CollectionofbestpornVideoDownloaderFromURL",
+    "#HowToDownloadCollectionofbestpornVideos",
+    "#HowToDownloadCollectionofbestpornVideosMac",
+    "#HowToDownloadCollectionofbestpornVideosWindows",
+    "#HowToDownloadCollectionofbestpornVideosOnline",
+    "#HowToDownloadCollectionofbestpornVideosFree",
+    "#HowToDownloadFromCollectionofbestporn",
+    "#HowToDownloadVideosFromCollectionofbestporn",
+    "#DownloadCollectionofbestpornVideos",
+    "#CollectionofbestpornVideoTutorial",
+    "#SaveCollectionofbestpornVideos",
+    "#CollectionofbestpornVideoContentSaver",
+    "#HowToDownloadCollectionofbestpornVideosForFree"
+  ],
+  "youtube_tags": [
+    "Collectionofbestporn Download",
+    "Collectionofbestporn Downloader",
+    "Collectionofbestporn Video Downloader",
+    "Collectionofbestporn Video Downloader Online",
+    "Collectionofbestporn Video Downloader Mac",
+    "Collectionofbestporn Video Downloader Window",
+    "Collectionofbestporn Video Downloader Free",
+    "Collectionofbestporn Video Downloader Extension",
+    "Collectionofbestporn Video Downloader App",
+    "Collectionofbestporn Video Downloader Chrome",
+    "Collectionofbestporn Video Downloader From URL",
+    "How To Download Collectionofbestporn Videos",
+    "How To Download Collectionofbestporn Videos Mac",
+    "How To Download Collectionofbestporn Videos Windows",
+    "How To Download Collectionofbestporn Videos Online",
+    "How To Download Collectionofbestporn Videos Free",
+    "How To Download From Collectionofbestporn",
+    "How To Download Videos From Collectionofbestporn",
+    "Download Collectionofbestporn Videos",
+    "Collectionofbestporn Video Tutorial",
+    "Save Collectionofbestporn Videos",
+    "Collectionofbestporn Video Content Saver",
+    "How To Download Collectionofbestporn Videos For Free"
+  ]
+}
